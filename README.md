@@ -92,15 +92,15 @@ python cliente.py
 
 ---
 
-### 🔐 Registro
+###  Registro
 
 **POST** `http://127.0.0.1:5000/registro`
 
  Petición:
-![Registro](img/creacion_usuario_01.png)
+![Registro](https://github.com/Mariano-Javier/REDESTP2/blob/main/static/img/login_usuario_01.png)
 
  Respuesta:
-![Registro OK](img/creacion_usuario_02.png)
+![Registro OK](https://github.com/Mariano-Javier/REDESTP2/blob/main/static/img/login_usuario_02.png)
 
 ```json
 {
@@ -211,9 +211,9 @@ El sistema opera bajo un modelo distribuido:
 
 Es una medida crítica de seguridad. Al aplicar hashing:
 
-* ✔ **Privacidad:** la contraseña real nunca se almacena
-* ✔ **Seguridad:** si la base se filtra, solo hay hashes irreversibles
-* ✔ **Protección:** incluso administradores no pueden ver claves
+*  **Privacidad:** la contraseña real nunca se almacena
+*  **Seguridad:** si la base se filtra, solo hay hashes irreversibles
+*  **Protección:** incluso administradores no pueden ver claves
 
 ---
 
@@ -221,10 +221,10 @@ Es una medida crítica de seguridad. Al aplicar hashing:
 
 SQLite es ideal para este tipo de proyecto:
 
-* ✔ **Persistencia:** datos almacenados en disco
-* ✔ **Portabilidad:** archivo único `.db`
-* ✔ **Sin configuración:** no requiere servidor
-* ✔ **Ligereza:** bajo consumo de recursos
+*  **Persistencia:** datos almacenados en disco
+*  **Portabilidad:** archivo único `.db`
+*  **Sin configuración:** no requiere servidor
+*  **Ligereza:** bajo consumo de recursos
 
 ---
 
