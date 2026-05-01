@@ -88,7 +88,7 @@ python cliente.py
 
 ---
 
-## 📡 Referencia de la API
+##  Referencia de la API
 
 ---
 
@@ -97,9 +97,11 @@ python cliente.py
 **POST** `http://127.0.0.1:5000/registro`
 
  Petición:
+ 
 ![Registro](https://github.com/Mariano-Javier/REDESTP2/blob/main/static/img/login_usuario_01.png)
 
  Respuesta:
+ 
 ![Registro OK](https://github.com/Mariano-Javier/REDESTP2/blob/main/static/img/login_usuario_02.png)
 
 ```json
@@ -118,10 +120,12 @@ python cliente.py
 **POST** `http://127.0.0.1:5000/login`
 
  Petición:
-![Login](img/login_usuario_01.png)
+ 
+![Login](https://github.com/Mariano-Javier/REDESTP2/blob/main/static/img/login_usuario_01.png)
 
  Respuesta:
-![Login OK](img/login_usuario_02.png)
+ 
+![Login OK](https://github.com/Mariano-Javier/REDESTP2/blob/main/static/img/login_usuario_02.png)
 
 ```json
 {
@@ -139,10 +143,12 @@ python cliente.py
 **POST** `http://127.0.0.1:5000/crear_tarea`
 
  Petición:
-![Crear tarea](img/crear_tarea01.png)
+ 
+![Crear tarea](https://github.com/Mariano-Javier/REDESTP2/blob/main/static/img/crear_tarea01.png)
 
  Respuesta:
-![Crear tarea OK](img/crear_tarea02.png)
+ 
+![Crear tarea OK](https://github.com/Mariano-Javier/REDESTP2/blob/main/static/img/crear_tarea02.png)
 
 ```json
 {
@@ -158,10 +164,12 @@ python cliente.py
 **GET** `http://127.0.0.1:5000/mis_tareas/<user_id>`
 
  Petición:
-![Tareas](img/tareas01.png)
+ 
+![Tareas](https://github.com/Mariano-Javier/REDESTP2/blob/main/static/img/tareas01.png)
 
  Respuesta:
-![Tareas OK](img/tareas02.png)
+ 
+![Tareas OK](https://github.com/Mariano-Javier/REDESTP2/blob/main/static/img/tareas02.png)
 
  Respuesta: `200 OK` (Lista JSON)
 
@@ -170,7 +178,8 @@ python cliente.py
 ##  Manual del Cliente (cliente.py)
 
  Menú interactivo:
-![Cliente](img/cliente01.png)
+ 
+![Cliente](https://github.com/Mariano-Javier/REDESTP2/blob/main/static/img/cliente01.png)
 
 ### Funcionalidades:
 
